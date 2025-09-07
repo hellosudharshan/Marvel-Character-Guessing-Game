@@ -1,0 +1,22 @@
+Prompt for the Marvel Character Guessing Game Code
+
+Prompt:
+I need to create a Streamlit-based Python application that implements a Marvel character guessing game. The game supports two modes:
+
+Human guesses: The user tries to guess a secret Marvel character by asking yes/no questions, with the option to request clues (costing extra guesses).
+AI guesses: The user thinks of a Marvel character, and the AI (powered by Gemini API) asks yes/no questions to try to guess the character.
+
+The game supports three difficulty levels (Easy, Medium, Hard) with progressively larger character pools. It uses session state to manage game progress and user inputs. The AI uses the Gemini API for generating questions, answers, and clues.
+Key features:
+
+Character lists with attributes (hero/villain, gender, team leader, human, from Earth).
+Async functions to call the Gemini API for generating questions, clues, and yes/no answers.
+Streamlit UI for navigation, question/answer input, and displaying conversation history.
+Game logic for tracking guesses, unlocking clues, and determining win/loss conditions.
+
+What I’d like:
+
+A summary of the code’s main components and flow.
+Suggestions for improving code structure, UX, or performance.
+Ideas for additional features or enhancements (e.g., more character attributes, leaderboards, multiplayer).
+Any best practices I should consider for async API calls in Streamlit.
